@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ejemplo de JavaScript</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+<script>
+
+  function abrirParametros()
+  {
+    var ventana=open('','','status=yes,width=600,height=300,menubar=yes');
+    ventana.document.write("Esta ventana tiene 600px de ancho y 300 de alto <br>");
+  }
+</script>
+<form>
+<input type="button" value="Abrir ventana" onClick="abrirParametros()" >
+</form>
+</body>
+</html>
